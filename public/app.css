@@ -3,7 +3,7 @@
 }
 
 .container {
-  margin: 0px 200px;
+  margin: 0px 190px;
 }
 
 html {
@@ -385,11 +385,11 @@ header nav {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #58402C;
-  padding: 12px 0px;
+  padding: 8px 0px;
 }
 
 header .logo {
-  height: 30px;
+  height: 28px;
 }
 
 header .nav-right ul {
@@ -397,22 +397,22 @@ header .nav-right ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 500px;
+  width: 450px;
   margin: 10px 0px;
 }
 
 header .nav-right li {
   color: #58402C;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   display: inline;
 }
 
 header .nav-right button {
   color: #30488f;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
-  padding: 10px 12px;
+  padding: 8px 12px;
   line-height: 18px;
   border: 1px solid #30488f;
   border-radius: 10px;
@@ -424,4 +424,78 @@ header .nav-right .google-logo {
 }
 
 /* /header */
+
+/* jumbotron */
+
+.jumbotron {
+  display: flex;
+  margin-top: 100px;
+}
+
+.jumbotron .jumbotron-text {
+  width: 50%;
+  margin: auto;
+  padding-right: 65px;
+}
+
+.jumbotron .jumbotron-text h2 {
+  margin: 0px;
+  color: #58402C;
+  font-size: 52px;
+  line-height: 70px;
+  font-weight: 500;
+}
+
+.jumbotron .jumbotron-text h3 {
+  font-size: 22px;
+  color: #58402C;
+  line-height: 35px;
+  font-weight: normal;
+  padding-right: 40px;
+  margin: 35px 0px;
+}
+
+.jumbotron .jumbotron-image {
+  width: 50%;
+}
+
+.jumbotron .jumbotron-image img {
+  width: 100%;
+}
+
+.jumbotron .sign-up {
+  margin-bottom: 20px;
+}
+
+.jumbotron .sign-up button {
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  border: 0px;
+  color: #ffffff;
+  background-color: #30488f;
+}
+
+.jumbotron .sign-up button img {
+  height: 14px;
+  padding-right: 5px;
+}
+
+.jumbotron .sign-up span {
+  color: #bdb5af;
+  font-size: 12px;
+  margin: 0px 18px;
+}
+
+.jumbotron a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #58402C;
+}
+
+.jumbotron a:hover {
+  color: #30488f;
+}
+
+/* /jumbotron */
 
