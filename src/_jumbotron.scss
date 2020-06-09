@@ -35,42 +35,41 @@
             width: 100%
         }
     }
+}
 
-    .sign-up {
+.sign-up {
 
-        margin-bottom: 20px;
+    margin-bottom: 20px;
 
-        button {
-            padding: 8px 20px;
-            border-radius: 8px;
-            font-size: 14px;
-            border: 0px;
-            color: #ffffff;
-            background-color: $button-blue;
-
-            img {
-                height: 14px;
-                padding-right: 5px;
-            }
-
-        }
-
-        span {
-            color: #bdb5af;
-            font-size: 12px;
-            margin: 0px 18px;
-        }
-    }
-
-    a {
-        text-decoration: none;
+    button {
+        padding: 8px 20px;
+        border-radius: 8px;
         font-size: 14px;
-        color: $text-main-color;
+        border: 0px;
+        color: #ffffff;
+        background-color: $button-blue;
+
+        img {
+            height: 14px;
+            padding-right: 5px;
+        }
+
     }
 
-    a:hover {
-        color: $button-blue;
+    span {
+        color: #bdb5af;
+        font-size: 12px;
+        margin: 0px 18px;
     }
 }
 
+a {
+    text-decoration: none;
+    font-size: 14px;
+    color: $text-main-color;
+}
+
+a:hover {
+    color: $button-blue;
+}
 /* /jumbotron */

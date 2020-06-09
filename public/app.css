@@ -469,11 +469,11 @@ header .nav-right .google-logo {
   width: 100%;
 }
 
-.jumbotron .sign-up {
+.sign-up {
   margin-bottom: 20px;
 }
 
-.jumbotron .sign-up button {
+.sign-up button {
   padding: 8px 20px;
   border-radius: 8px;
   font-size: 14px;
@@ -482,24 +482,24 @@ header .nav-right .google-logo {
   background-color: #30488f;
 }
 
-.jumbotron .sign-up button img {
+.sign-up button img {
   height: 14px;
   padding-right: 5px;
 }
 
-.jumbotron .sign-up span {
+.sign-up span {
   color: #bdb5af;
   font-size: 12px;
   margin: 0px 18px;
 }
 
-.jumbotron a {
+a {
   text-decoration: none;
   font-size: 14px;
   color: #58402C;
 }
 
-.jumbotron a:hover {
+a:hover {
   color: #30488f;
 }
 
@@ -631,5 +631,75 @@ header .nav-right .google-logo {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
+}
+
+.feedback {
+  background-color: #FFE7D2;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.feedback .title-feedback {
+  text-align: center;
+  padding-top: 80px;
+  width: 500px;
+}
+
+.feedback .title-feedback h2 {
+  color: #58402C;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 60px;
+}
+
+.feedback .feedback-text {
+  width: 550px;
+  padding: 20px 40px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.feedback .feedback-text p {
+  line-height: 25px;
+  color: #58402C;
+}
+
+.feedback .signature {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.feedback .signature .signature-image img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.feedback .signature .signature-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+
+.feedback .signature .signature-text .signature-name {
+  color: #30488f;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.feedback .signature .signature-text .signature-position {
+  color: #58402C;
+  font-size: 13px;
+}
+
+.feedback .sign-up {
+  margin-top: 40px;
 }
 

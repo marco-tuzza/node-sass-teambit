@@ -1,0 +1,62 @@
+.feedback {
+    background-color: $page-main-color;
+    height: 1000px;
+    @include flex(column, center, flex-start);
+
+    .title-feedback {
+        text-align: center;
+        padding-top: 80px;
+        width: 500px;
+
+        h2 {
+            color: $text-main-color;
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 60px;
+        }
+    }
+
+    .feedback-text {
+        width: 550px;
+        padding: 20px 40px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        border-radius: 10px;
+
+        p {
+            line-height: 25px;
+            color: $text-main-color;
+        }
+    }
+
+    .signature {
+        @include flex(row, center, flex-start);
+
+        .signature-image {
+            img {
+                height: 40px;
+                margin-right: 10px;
+            }
+        }
+
+        .signature-text {
+            @include flex(column, flex-start, flex-start);
+            margin-left: 10px;
+
+            .signature-name {
+                color: $button-blue;
+                font-size: 15px;
+                margin-bottom: 5px;
+            }
+
+            .signature-position {
+                color: $text-main-color;
+                font-size: 13px;
+            }
+        }
+    }
+
+    .sign-up {
+        margin-top: 40px;
+    }
+}
