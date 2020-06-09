@@ -1,8 +1,9 @@
 /* jumbotron */
 
 .jumbotron {
-    display: flex;
+    @include flex(row, center, center);
     margin-top: 100px;
+    margin-bottom: 140px;
 
     .jumbotron-text {
         width: 50%;

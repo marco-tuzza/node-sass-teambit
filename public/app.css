@@ -382,6 +382,7 @@ template {
 header nav {
   width: 100%;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #58402C;
@@ -395,6 +396,7 @@ header .logo {
 header .nav-right ul {
   list-style: none;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   width: 450px;
@@ -429,7 +431,11 @@ header .nav-right .google-logo {
 
 .jumbotron {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   margin-top: 100px;
+  margin-bottom: 140px;
 }
 
 .jumbotron .jumbotron-text {
@@ -498,4 +504,74 @@ header .nav-right .google-logo {
 }
 
 /* /jumbotron */
+
+.display {
+  background-color: #FFE7D2;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.display .container .title-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px;
+}
+
+.display .container h3 {
+  color: #58402C;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 40px;
+}
+
+.display .container .display-visual {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+}
+
+.display .container .display-visual .display-visual-element {
+  width: 210px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.display .container .display-visual .display-visual-element img {
+  height: 105px;
+}
+
+.display .container .display-visual .display-visual-element span {
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  color: #58402C;
+}
+
+.display .container .display-image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.display .container .display-image img {
+  height: 280px;
+  width: 285px;
+}
+
+.display .container hr {
+  margin: 80px 0px;
+}
 

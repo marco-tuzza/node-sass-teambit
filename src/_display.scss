@@ -1,0 +1,60 @@
+.display {
+    background-color: $page-main-color;
+    height: 100%;
+    @include flex(row, flex-start, center);
+
+    .container {
+
+        .title-section {
+            @include flex(row, center, center);
+            padding: 50px 0px;
+        }
+
+        h3 {
+            @include h3s;
+        }
+
+        .display-visual {
+
+            @include flex(row, center, space-between);
+
+            width: 800px;
+
+            .display-visual-element {
+
+                width: 210px;
+                height: 180px;
+
+                @include flex(column, center, space-between);
+
+                img {
+                    height: 105px;
+                }
+
+                span {
+                    font-size: 18px;
+                    font-weight: normal;
+                    text-align: center;
+                    color: $text-main-color;
+                }
+            }
+
+        }
+
+        .display-image {
+
+            @include flex(row, center, center);
+            margin-top: 100px;
+
+            img {
+                height: 280px;
+                width: 285px;
+            }
+        }
+
+        hr {
+            margin: 80px 0px;
+        }
+    }
+
+}

@@ -1,0 +1,14 @@
+@mixin h3s {
+    color: $text-main-color;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 40px;
+}
+
+@mixin flex ($flex-dir, $align-it, $just-cont) {
+    display: flex;
+    flex-direction:$flex-dir;
+    align-items:$align-it;
+    justify-content:$just-cont;
+}
