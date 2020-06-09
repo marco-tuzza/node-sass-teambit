@@ -526,8 +526,8 @@ header .nav-right .google-logo {
   color: #58402C;
   font-size: 25px;
   font-weight: 500;
-  text-align: center;
   line-height: 40px;
+  text-align: center;
 }
 
 .display .container .display-visual {
@@ -573,5 +573,63 @@ header .nav-right .google-logo {
 
 .display .container hr {
   margin: 80px 0px;
+}
+
+.features {
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.features div {
+  width: 50%;
+}
+
+.features div .screenshot {
+  width: 100%;
+}
+
+.features .features-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 410px;
+  padding-left: 30px;
+}
+
+.features .features-text h3 {
+  color: #58402C;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: left;
+  margin: 0px;
+}
+
+.features .features-text p {
+  font-size: 22px;
+  line-height: 32px;
+  color: #58402C;
+}
+
+.features .features-text a {
+  color: #30488f;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.features .features-cartoon {
+  width: 280px;
+  padding: 50px 100px;
+}
+
+.opposite {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
 }
 

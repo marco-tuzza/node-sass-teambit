@@ -11,7 +11,7 @@
         }
 
         h3 {
-            @include h3s;
+            @include h3s (center);
         }
 
         .display-visual {

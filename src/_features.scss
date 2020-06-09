@@ -1,0 +1,44 @@
+.features {
+    padding: 50px 0px;
+    @include flex(row, flex-start, flex-start);
+
+    div {
+        width: 50%;
+
+        .screenshot {
+            width: 100%;
+        }
+    }
+
+    .features-text {
+        @include flex(column, flex-start, flex-start);
+        width: 410px;
+        padding-left: 30px;
+
+        h3 {
+            @include h3s (left);
+            margin: 0px;
+        }
+
+        p {
+            font-size: 22px;
+            line-height: 32px;
+            color: $text-main-color;
+        }
+
+        a {
+            color: $button-blue;
+            text-decoration: none;
+            font-size: 22px;
+        }
+    }
+
+    .features-cartoon {
+        width: 280px;
+        padding: 50px 100px;
+    }
+}
+
+.opposite {
+    @include flex(row, flex-start, flex-end);
+}
