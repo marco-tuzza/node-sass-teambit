@@ -1,0 +1,66 @@
+footer {
+    height: 500px;
+
+    .wrapper {
+        @include flex(row, flex-start, center);
+        margin-top: 80px;
+        width: 100%;
+    }
+
+    .footer-left {
+
+        @include flex(row, flex-start, flex-start);
+        width: 315px;
+
+        img {
+            width: 120px;
+            margin-right: 20px;
+        }
+
+        a {
+            font-size: 18px;
+            color: $button-blue;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 0px;
+        }
+
+    }
+
+    .footer-right {
+        @include flex(row, flex-start, flex-end);
+        width: 800px;
+        margin-left: 50px;
+
+        .footer-list {
+            width: 140px;
+            margin-right: 10px;
+
+            ul {
+                list-style: none;
+                padding: 0px;
+            }
+
+            span {
+                font-weight: bold;
+                color: $text-main-color;
+                font-size: 16px;
+            }
+
+            li {
+                color: $text-main-color;
+                font-size: 14px;
+                line-height: 30px;
+                padding-right: 20px;
+            }
+
+            li:hover {
+                cursor: pointer;
+                color: $button-blue;
+            }
+        }
+    }
+
+}

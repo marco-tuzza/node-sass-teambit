@@ -635,16 +635,15 @@ a:hover {
 
 .feedback {
   background-color: #FFE7D2;
-  height: 1000px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  padding: 80px 0px;
 }
 
 .feedback .title-feedback {
   text-align: center;
-  padding-top: 80px;
   width: 500px;
 }
 
@@ -701,5 +700,78 @@ a:hover {
 
 .feedback .sign-up {
   margin-top: 40px;
+}
+
+footer {
+  height: 500px;
+}
+
+footer .wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 80px;
+  width: 100%;
+}
+
+footer .footer-left {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 315px;
+}
+
+footer .footer-left img {
+  width: 120px;
+  margin-right: 20px;
+}
+
+footer .footer-left a {
+  font-size: 18px;
+  color: #30488f;
+}
+
+footer .footer-left p {
+  font-size: 18px;
+  margin: 0px;
+}
+
+footer .footer-right {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 800px;
+  margin-left: 50px;
+}
+
+footer .footer-right .footer-list {
+  width: 140px;
+  margin-right: 10px;
+}
+
+footer .footer-right .footer-list ul {
+  list-style: none;
+  padding: 0px;
+}
+
+footer .footer-right .footer-list span {
+  font-weight: bold;
+  color: #58402C;
+  font-size: 16px;
+}
+
+footer .footer-right .footer-list li {
+  color: #58402C;
+  font-size: 14px;
+  line-height: 30px;
+  padding-right: 20px;
+}
+
+footer .footer-right .footer-list li:hover {
+  cursor: pointer;
+  color: #30488f;
 }
 
